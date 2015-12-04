@@ -1,0 +1,38 @@
+# ホームページ・ビルダー17でのソースはき出し
+
+基本的なHTMLはホームページ・ビルダー17を利用して作成しています。
+
+白紙から新規作成する場合のフォーマットのどちらを選ぶかで、HTMLソースを吐き出した内容が変わります。
+ビルダーのメニューからツール-オプションを選択。
+「ファイル」タブのなかでどのフォーマットを使うか選びます。
+
+[WS000183.JPG]
+
+## HTML5
+## HTML4.0/XHTML1.0
+
+* HTML4.0/XHTML1.0の場合、はき出される内容は以下のようになります。
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title></title>
+</head>
+<body></body>
+</html>
+
+* HTML5の場合、はき出される内容は以下のようになります。
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title></title>
+</head>
+<body></body>
+</html>
+
